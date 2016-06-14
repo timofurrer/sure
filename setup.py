@@ -32,9 +32,9 @@ from setuptools import setup, find_packages
 # please open an issue on GitHub.
 EXPL_NOT_SUPPORTED_VERSIONS = ((3, 0), (3, 1), (3, 2))
 
-if sys.version_info[0:2] in EXPL_NOT_SUPPORTED_VERSIONS:
-    raise SystemExit("sure does explicitly not support the following python versions "
-                     "due to big incompatibilities: {0}".format(EXPL_NOT_SUPPORTED_VERSIONS))
+# if sys.version_info[0:2] in EXPL_NOT_SUPPORTED_VERSIONS:
+    # raise SystemExit("sure does explicitly not support the following python versions "
+                     # "due to big incompatibilities: {0}".format(EXPL_NOT_SUPPORTED_VERSIONS))
 
 
 PROJECT_ROOT = os.path.dirname(__file__)
